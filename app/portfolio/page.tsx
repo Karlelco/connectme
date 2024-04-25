@@ -232,16 +232,28 @@ export default function Portfolio() {
             </ScrollArea>
 
             <div className="grid grid-cols-2 items-center bg-base-200 rounded-lg justify-center w-96 relative">
-              <Link href="https://google.com" className=" ml-30 mt-20 right-3 z-10 ">
+              <Link
+                href="https://google.com"
+                className=" ml-30 mt-20 right-3 z-10 "
+              >
                 <TbBrandWhatsapp className="  text-green-700 text-6xl" />
               </Link>
-              <Link href="https://google.com" className="  justify-end  right-3 -top-2">
+              <Link
+                href="https://google.com"
+                className="  justify-end  right-3 -top-2"
+              >
                 <TbBrandX className=" text-white-700 text-6xl" />
               </Link>
-              <Link href="https://google.com" className=" z-10 top-6  mb-24 ml-20 ">
+              <Link
+                href="https://google.com"
+                className=" z-10 top-6  mb-24 ml-20 "
+              >
                 <TbBrandLinkedin className=" text-blue-400 text-6xl" />
               </Link>
-              <Link href="https://google.com" className="  right-3 -top-12">
+              <Link
+                href="https://github.com/Karlelco"
+                className="  right-3 -top-12"
+              >
                 <TbBrandGithub className="  text-6xl" />
               </Link>
             </div>
