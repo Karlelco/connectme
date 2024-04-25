@@ -21,9 +21,3 @@ export  async function NewPost(data: { title: string; content: string; author: s
         console.error("Error sending data to the database:", error);
     }
 }
-
-
-export async function getPosts() {
-    const posts = await db.post.findMany();
-    console.log(posts);
-}

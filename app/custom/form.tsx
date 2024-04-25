@@ -14,7 +14,7 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import {  NewPost } from "../server/actions/route";
+import { NewPost } from "../server/actions/form";
 
 const FormSchema = z.object({
   title: z.string().min(2, {
@@ -56,6 +56,7 @@ export default function InputForm() {
       
       <Form {...form}>
         <form
+          // eslint-disable-next-line @typescript-eslint/no-misused-promises
           onSubmit={form.handleSubmit(onSubmit)}
           className="w-2/3 space-y-6"
         >
