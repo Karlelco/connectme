@@ -21,7 +21,7 @@ export default function FormItem() {
           <Label htmlFor="author">Author</Label>
           <Input id="author" name="author" type="text" />
         </div>
-        <Button formAction={NewPost}>Post</Button>
+        <Button>Post</Button>
       </form>
     </>
   );

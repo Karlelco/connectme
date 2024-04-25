@@ -8,17 +8,13 @@ import { Button } from "@/components/ui/button";
 import {
   Form,
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { toast } from "@/components/ui/use-toast";
-import { getPosts, NewPost } from "../server/actions/route";
-import { db } from "./db/db";
-import { useEffect } from "react";
+import {  NewPost } from "../server/actions/route";
 
 const FormSchema = z.object({
   title: z.string().min(2, {
