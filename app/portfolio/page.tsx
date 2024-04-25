@@ -258,7 +258,7 @@ export default function Portfolio() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col-reverse md:flex-row gap-2">
+          <div className="flex flex-col-reverse md:flex-row gap-2 text-6xl animate-in">
             Projects coming soon !
           </div>
         </div>
