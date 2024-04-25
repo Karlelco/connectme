@@ -1,7 +1,6 @@
 'use server';
 
 import { db } from "@/app/custom/db/db";
-import { useEffect } from "react";
 
 
 export  async function NewPost(data: { title: string; content: string; author: string; }) {
@@ -24,11 +23,7 @@ export  async function NewPost(data: { title: string; content: string; author: s
 }
 
 
-export function useGetPosts() {
+export async function getPosts() {
     const posts = await db.post.findMany();
     console.log(posts);
-
-    useEffect(() => {
-        console.log(posts);
-    }, [posts]);
 }
