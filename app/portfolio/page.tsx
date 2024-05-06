@@ -63,7 +63,7 @@ export default function Portfolio() {
 
   return (
     <div className="flex min-h-screen w-full flex-col">
-      <header className="sticky top-0 flex h-16 items-center justify-center gap-4 z-20 border-b bg-background px-4 md:px-6">
+      <header className="sticky top-0 flex h-16 items-center gap-4 z-20 border-b bg-background px-4 md:px-6">
         <nav className="hidden flex-col gap-6 text-lg  font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
           <Link
             href="#"
@@ -210,7 +210,7 @@ export default function Portfolio() {
             </CardContent>
           </Card>
         </div>
-        <div className="grid  grid-cols-2">
+        <div className="flex flex-col md:flex-row py-8">
           <div className="flex flex-col-reverse md:flex-row gap-2">
             <ScrollArea className="w-96 flex-grow-1 whitespace-nowrap rounded-md border">
               <div className="flex w-max space-x-4 p-4">
@@ -258,7 +258,7 @@ export default function Portfolio() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col-reverse md:flex-row gap-2 text-6xl animate-in">
+          <div className="flex flex-col-reverse md:flex-row gap-2 text-4xl animate-in">
             Projects coming soon !
           </div>
         </div>
