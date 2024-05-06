@@ -1,14 +1,11 @@
+"use client";
 
-import InputForm from "@/app/custom/form";
-import React from 'react'
-
-function page() {
+export default function page() {
   return (
     <div>
-    
-      <InputForm />
+   admin page
     </div>
   );
 }
 
-export default page
+ 

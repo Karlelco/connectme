@@ -1,5 +1,4 @@
-// blog 
-
+"use client";
 import Link from "next/link";
 import {
   Bell,
@@ -12,7 +11,6 @@ import {
   ShoppingCart,
   Users,
 } from "lucide-react";
-
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -22,7 +20,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-
 import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
